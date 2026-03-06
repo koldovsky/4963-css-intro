@@ -1,0 +1,22 @@
+/* 
+Синтаксис:
+
+селектор {
+  властивість: значення;
+  властивість2: значення2;
+}
+
+*/
+
+.header {
+  background-color: var(--background-color);
+}
+
+.header__title {
+  color: var(--text-color);
+  border: 5px solid var(--border-color);
+  padding: 20px;
+  width: 500px;
+  margin: 20px;
+  box-sizing: border-box;
+}
